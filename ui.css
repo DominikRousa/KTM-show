@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-family: 'Object Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;   
+    background: linear-gradient(to right top, #242424, #242424, #242424, #242424, #242424, #2f2b34, #3e3143, #50364f, #823d5f, #b4435b, #dd5446, #f2771a) center/cover no-repeat fixed;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    align-items: center;
+    text-align: center;
+    padding: 2vh 3vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
