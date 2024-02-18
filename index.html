@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ui.css">
+    <link rel="icon" href="ktm.png">
     <script src="script.js"></script>
     <link href="https://fonts.cdnfonts.com/css/object-sans" rel="stylesheet">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
@@ -11,20 +12,39 @@
     <title>Document</title>
 </head>
 <body>
-    
     <div class="mainPage">
-        <div class="header">
-            <img src="ktm.png" style="height: 10vh;">
-            <nav class="navbar">
-                <li><a href="">Enduro</a></li>
-                <li><a href="">Supersport</a></li>
-                <li><a href="">Supermoto</a></li>
+
+        <header class="centerOnMobile">
+            <img src="ktm.png" width="192" style="height: 10vh;">
+            <nav class="navbar hideOnMobile">
+                <ul class="navLinks">
+                    <li><a href="">Enduro</a></li>
+                    <li><a href="">Supersport</a></li>
+                    <li><a href="">Supermoto</a></li>
+                </ul>
             </nav>
-            <img src="glass.svg" style="height: 24px;">
-        </div>
+            <img src="glass.svg" class="hideOnMobile" style="height: 24px;">
+        </header>
 
         <div class="container">
-
+            <div class="mainProduct"><img src="exc300.png" alt="" class="responsive" width="600" height="auto"></div>
+            <div class="mainPageText">
+                <h2>KTM EXC 300</h2>
+                <p>KTM 300 EXC 2024 přijíždí s celým arzenálem nových zbraní. Zcela nový oranžový rám, odpružení využívající uzavřenou cartridge, nová kapotáž, nový motor produkující 49 kw a 43,8 Nm, nová technologie TBI zajišťující ještě hladší jízdu a konstantní přísun výkonu i v těch nejnáročnějších podmínkách, to vše umožňuje tomuto stroji, aby se postavil komukoli, kdykoli a v jakémkoli terénu.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h2>255 000 Kč</h2>
+                    <button class="animated-button">
+                        <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                        </svg>
+                        <span class="text">Buy now</span>
+                        <span class="circle"></span>
+                        <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </div>
 
         <div class="footer">
